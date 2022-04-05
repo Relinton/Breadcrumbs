@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MvcSiteMapProvider.MVC5/4.6.26": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MvcSiteMapProvider.WebActivator.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MvcSiteMapProvider.WebActivator.dll": {}
+        }
+      },
+      "MvcSiteMapProvider.MVC5.Core/4.6.26": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MvcSiteMapProvider.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MvcSiteMapProvider.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MvcSiteMapProvider.MVC5/4.6.26": {
+      "sha512": "uyxmrU1hmxQXQkO2u5jJSUNvCC51kLKLzKRBBovNqeX02n/oYK8rj6GX9XYOLWJE7ja4iqx67FECoqQFSUa3rg==",
+      "type": "package",
+      "path": "mvcsitemapprovider.mvc5/4.6.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MvcSiteMapProvider.WebActivator.dll",
+        "lib/net45/MvcSiteMapProvider.WebActivator.pdb",
+        "lib/net45/MvcSiteMapProvider.WebActivator.xml",
+        "mvcsitemapprovider.mvc5.4.6.26.nupkg.sha512",
+        "mvcsitemapprovider.mvc5.nuspec"
+      ]
+    },
+    "MvcSiteMapProvider.MVC5.Core/4.6.26": {
+      "sha512": "6sp1OGLDhDwQxdapsbMOS/2VNf82Ru+3EpCf74Ta1kAQ1hf+KTVZTjAx8Hty8UjCbYOt0RNA9WkaUpftsLY3NA==",
+      "type": "package",
+      "path": "mvcsitemapprovider.mvc5.core/4.6.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MvcSiteMapProvider.dll",
+        "lib/net45/MvcSiteMapProvider.xml",
+        "mvcsitemapprovider.mvc5.core.4.6.26.nupkg.sha512",
+        "mvcsitemapprovider.mvc5.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MvcSiteMapProvider.MVC5 >= 4.6.26",
+      "MvcSiteMapProvider.MVC5.Core >= 4.6.26"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\01712766201\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Relinton Sistemas\\SimplesBreadcrumb\\SimplesBreadcrumb\\SimplesBreadcrumb.csproj",
+      "projectName": "SimplesBreadcrumb",
+      "projectPath": "D:\\Relinton Sistemas\\SimplesBreadcrumb\\SimplesBreadcrumb\\SimplesBreadcrumb.csproj",
+      "packagesPath": "C:\\Users\\01712766201\\.nuget\\packages\\",
+      "outputPath": "D:\\Relinton Sistemas\\SimplesBreadcrumb\\SimplesBreadcrumb\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\01712766201\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "MvcSiteMapProvider.MVC5": {
+            "target": "Package",
+            "version": "[4.6.26, )"
+          },
+          "MvcSiteMapProvider.MVC5.Core": {
+            "target": "Package",
+            "version": "[4.6.26, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MvcSiteMapProvider.MVC5 4.6.26' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MvcSiteMapProvider.MVC5",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MvcSiteMapProvider.MVC5.Core 4.6.26' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MvcSiteMapProvider.MVC5.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
